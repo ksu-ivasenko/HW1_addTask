@@ -19,6 +19,12 @@ public class Main {
         a = a - b;
         System.out.println ("a = " + a + " b = " + b);
 
+        //задание 8
+        a = 456;
+        b = (a % 100 - a % 10)/10;
+        System.out.println ("значение a = " + a + " значение b = " + b);
+
+
 
     }
 }
